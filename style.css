@@ -1,0 +1,25 @@
+*{
+box-sizing : border-box;
+background-color: red;
+
+}
+#biscuits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+.biscuit {
+    padding :10px;
+    border-color: 10px aqua;
+}
+.desc {
+    font-size: 20px;
+
+}
+.image {
+    width: 50%;
+    max-width: 300px;
+    border: 10px gray solid;
+
+}
